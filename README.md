@@ -13,7 +13,7 @@ Installation
 Usage
 =====
 
-Simply call `-[UIView runBlockOnAllSubviews:]` in your view controllers. The block has access to each UIView (or descendent) object, so you can do things like hide / show, enable / disable, etc. very easily.
+Simply call `-[UIView runBlockOnAllSubviews:]` in your view controllers. The block has access to each UIView (or descendant) object, so you can do things like hide / show, enable / disable, etc. very easily.
 
 There are also a couple of convenient methods that showcase certain common use cases, like disabling or enabling all controls in a hierarchy. (For instance, to disable controls from being accidentally touched when they are part of a page being turned in a UIPageViewController)
 
