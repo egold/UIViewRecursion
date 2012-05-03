@@ -117,6 +117,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Eric Goldberg";
 			};
 			buildConfigurationList = 0705F69D1553426800A03FD5 /* Build configuration list for PBXProject "UIViewRecursion" */;
 			compatibilityVersion = "Xcode 3.2";
