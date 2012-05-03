@@ -13,6 +13,7 @@
 		0705F6B21553426800A03FD5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0705F6B01553426800A03FD5 /* InfoPlist.strings */; };
 		0705F6B41553426800A03FD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0705F6B31553426800A03FD5 /* main.m */; };
 		0705F6B81553426800A03FD5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0705F6B71553426800A03FD5 /* AppDelegate.m */; };
+		0705F6C01553433900A03FD5 /* UIView+SubviewRecursion.m in Sources */ = {isa = PBXBuildFile; fileRef = 0705F6BF1553433900A03FD5 /* UIView+SubviewRecursion.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		0705F6B51553426800A03FD5 /* UIViewRecursion-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewRecursion-Prefix.pch"; sourceTree = "<group>"; };
 		0705F6B61553426800A03FD5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0705F6B71553426800A03FD5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0705F6BE1553433900A03FD5 /* UIView+SubviewRecursion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SubviewRecursion.h"; sourceTree = "<group>"; };
+		0705F6BF1553433900A03FD5 /* UIView+SubviewRecursion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SubviewRecursion.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 		0705F6AD1553426800A03FD5 /* UIViewRecursion */ = {
 			isa = PBXGroup;
 			children = (
+				0705F6BE1553433900A03FD5 /* UIView+SubviewRecursion.h */,
+				0705F6BF1553433900A03FD5 /* UIView+SubviewRecursion.m */,
 				0705F6B61553426800A03FD5 /* AppDelegate.h */,
 				0705F6B71553426800A03FD5 /* AppDelegate.m */,
 				0705F6AE1553426800A03FD5 /* Supporting Files */,
@@ -154,6 +159,7 @@
 			files = (
 				0705F6B41553426800A03FD5 /* main.m in Sources */,
 				0705F6B81553426800A03FD5 /* AppDelegate.m in Sources */,
+				0705F6C01553433900A03FD5 /* UIView+SubviewRecursion.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
