@@ -19,6 +19,15 @@
     }
 }
 
+-(void)runBlockOnAllSuperviews:(SuperviewBlock)block
+{
+    block(self);
+    if (self.superview)
+    {
+        [self.superview runBlockOnAllSuperviews:block];
+    }
+}
+
 -(void)enableAllControlsInViewHierarchy
 {
     [self runBlockOnAllSubviews:^(UIView *view) {
