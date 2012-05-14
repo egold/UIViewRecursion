@@ -40,4 +40,8 @@ To quickly disable all controls (buttons, text fields) in a view hierarchy:
     }
     
     @end
-    
+
+Background
+==========
+
+I first created this category while building an iPad app for One Kings Lane. Our specific need was to disable buttons (and other controls) while an animation was in-flight, and enable all controls after the animation completed. This was to prevent errant taps on controls during the animation sequence.
