@@ -1,14 +1,14 @@
 //
-//  UIView+SubviewRecursion.m
+//  UIView+ViewRecursion.m
 //  UIViewRecursion
 //
 //  Created by Eric Goldberg on 5/3/12.
 //  Copyright (c) 2012 Eric Goldberg. All rights reserved.
 //
 
-#import "UIView+SubviewRecursion.h"
+#import "UIView+ViewRecursion.h"
 
-@implementation UIView (SubviewRecursion)
+@implementation UIView (ViewRecursion)
 
 -(void)runBlockOnAllSubviews:(SubviewBlock)block
 {
