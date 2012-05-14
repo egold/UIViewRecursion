@@ -26,17 +26,17 @@ To quickly disable all controls (buttons, text fields) in a view hierarchy:
 
     @implementation MyFancyViewController
 
-    -(void)disableAllControls
-    {
-        [self.view disableAllControlsInViewHierarchy];
-    }
-    
     -(void)makeAllSubviewsGreen
     {
         [self.view runBlockOnAllSubviews:^(UIView *view) {
         
             view.backgroundColor = [UIColor greenColor];
         }];
+    }
+    
+    -(void)disableAllControls
+    {
+        [self.view disableAllControlsInViewHierarchy];
     }
     
     @end
